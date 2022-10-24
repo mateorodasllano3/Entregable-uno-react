@@ -1,0 +1,51 @@
+.Card-two{
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    box-shadow: 2px 2px 4px lightslategray;
+    margin: auto;   
+}
+
+.App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-quote-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 80px;
+    padding-left: 1rem;
+
+}
+
+.card{
+    position: relative;
+    padding: 2rem;
+    background-color: white;
+    width: 500px;
+    height: 200px;
+}
+
+.quote{
+margin-bottom: 2rem;
+margin-left: 3.5rem;
+}
+
+.author{
+text-align: end;
+}
+
+.fa-circle-arrow-right{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    font-size: 50px;
+    box-shadow: 2px 2px 4px lightgrey;
+    border-radius: 50%;
+}
